@@ -1,4 +1,4 @@
 streamlit==1.46.0
-tensorflow>=2.17.0a0 --pre # Allow pre-releases for TensorFlow 2.17.0 and above
+tensorflow # Allow any compatible TensorFlow version
 numpy
 matplotlib
