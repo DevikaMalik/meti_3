@@ -1,5 +1,5 @@
-streamlit==1.46.0
-torch==2.3.1 # Or a stable version suitable for your environment, check pytorch.org for latest CPU/CUDA
-torchvision==0.18.1 # Matches torch version
+streamlit
+torch
+torchvision
 numpy
 matplotlib
