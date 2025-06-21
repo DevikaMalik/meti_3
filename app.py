@@ -77,11 +77,11 @@ generator = load_pytorch_generator_model(NOISE_DIM, NUM_CLASSES)
 # --- 3. Streamlit UI ---
 st.set_page_config(
     page_title="Handwritten Digit Image Generator (PyTorch)",
-    page_icon="✍️",
+    page_icon="",
     layout="centered"
 )
 
-st.title("Handwritten Digit Image Generator (PyTorch)")
+st.title("Handwritten Digit Image Generator")
 st.write("Generate synthetic MNIST-like images using your trained PyTorch model.")
 
 if generator is None:
