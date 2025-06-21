@@ -26,6 +26,4 @@ if generate :
         with cols[i]:
             st.image(selected_images[i], width = 80, clamp = True, channels = "L")
 
-from google.colab  import files 
-files.download("app.py")
-files.download("didgit_generator_model.h5")
+
